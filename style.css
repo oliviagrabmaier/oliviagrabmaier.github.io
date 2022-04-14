@@ -1,0 +1,121 @@
+/* ---------------- General  ------------------------*/
+
+body {
+  color: #000;
+  font-family: Cambria, serif;
+  line-height: 35px;
+}
+
+/* ------------------ Sizes ------------------ -----*/
+
+header {
+  height: auto;
+  margin: 40px auto 40px auto;
+  width: 75%;
+}
+
+main {
+  height: auto;
+  margin: 40px auto 40px auto;
+  width: 75%;
+}
+
+footer {
+  height: auto;
+  margin: 40px auto 40px auto;
+  width: 75%;
+}
+
+/* ------------------ Borders ---------------------*/
+
+main {
+  border-bottom: solid;
+  border-top: solid;
+  border-width: 3px;
+  padding: 20px;
+}
+
+/* ------------------ Titles ------------------------*/
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: normal;
+  text-align: center;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: normal;
+  text-align: center;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* ------------------ Fonts ------------------------*/
+
+header {
+  font-size: 20px;
+  font-weight: normal;
+  text-align: left;
+}
+
+main {
+  font-size: 20px;
+  font-weight: normal;
+  text-align: left;
+}
+
+footer {
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+}
+
+/* --------------- Images ------------------------*/
+
+.image2 {
+  display: block;
+  height: 1.5cm;
+  margin: 60px auto 60px auto;
+}
+
+/* ----------------- Listing  ---------------------*/
+
+ul {
+  list-style-type: square;
+  margin-left: 10px;
+}
+
+/* ------------------ Quote ----------------------*/
+
+blockquote {
+  background-color: #e6e6e6;
+  padding: 25px;
+  text-align: center;
+}
+
+/* --------------- Responsive header --------------*/
+
+.wrapper1 {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+
+.wrapper2 {
+  display: inline-block;
+  vertical-align: middle;
+}
